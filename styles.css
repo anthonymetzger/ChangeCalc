@@ -1,0 +1,133 @@
+body {
+  background-image: url('./assets/BACKGROUND.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  color: #cacaca;
+  margin: 0;
+  padding: 20px;
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+}
+
+.backgroundStuff {
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  back
+}
+.resizeCoin {
+  width:150px;
+  height: 150px;
+  margin-right: 20px;
+  margin-left: 20px;  
+}
+
+.resizeBill {
+    width: 300px;
+    height: 150px;
+}
+
+.billContainerHigh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.billContainerLow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.coinContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.oneLiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.op {
+  
+}
+
+.userInput {
+  width: 100px;
+  padding: 5px;
+  font-size: 16px;
+  border: 2px solid #cacaca;
+  border-radius: 5px;
+  margin-left: 25px;
+  margin-right: 25px;
+  background-color: #1a1a1a;
+  color: #cacaca;
+}
+
+.change {
+  font-size: 20px;
+
+}
+
+.coinSep {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.resizeDime {
+      width:75px;
+  height: 75px;
+  margin-right: 20px;
+  margin-left: 20px;  
+}
+.adjustHundredBill {
+  height: 220px;
+  width: 350px;
+  margin-bottom: 25px;
+}
+.adjustFiftyBill {
+  height: 240px;
+  width: 380px;
+}
+.adjustTwentyBill {
+  transform: rotate(-3deg);
+  width: 400px;
+  height: 215px;
+}
+.adjustTenBill {
+        width: 270px;
+    height: 120px;
+    margin-right: 20px;
+    margin-left: 20px;  
+}
+.adjustFiveBill {
+  height: 175px;
+}
+.adjustOneBill {
+  height: 200px;
+  margin-top: 15px;
+}
+.footer {
+  margin-top: 90px;
+}
+
+:visited{
+      color: #cd6dff;
+}
+:link{
+      color: #a9edff;
+}

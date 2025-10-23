@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="styles.css" />
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title class="oneLiner">Change Calculator</title>
+  </head>
+  <body >
+    <h1 class="oneLiner">Change Calculator</h1>
+    <h2 class="oneLiner">*cha ching!!!*</h2>
+    <div class="inputContainer">
+      <h3 class="userInput">Customer Pays:</h3>
+      <input class="userInput" type="number" id="customer" placeholder="0.00" />
+      <h3 class="userInput">Total Value:</h3>
+      <input class="userInput" type="number" id="price" placeholder="0.00" />
+      <button onclick="calculateChange(document.getElementById('customer').value, document.getElementById('price').value)" type="button" id="calculate">Calculate Change</button>
+    </div>
+    <h3 class="chan vge" id="changeDue">Change Due:</h3>
+      <div class="billContainerHigh">
+      <img class="resizeBill adjustHundredBill" src="assets/ONE-HUNDRED.png" />
+      <h4 id="hundred">100 dollar bills</h4>
+      <img class="resizeBill adjustFiftyBill" src="assets/FIFTY.png" />
+      <h4 id="fifty">50 dollar  bills</h4>
+      <img class="resizeBill adjustTwentyBill" src="assets/TWENTY.png" />
+      <h4 id="twenty">20 dollar bills</h4>
+    </div>
+    <div class="billContainerLow">
+      <img class="resizeBill adjustTenBill" src="assets/TEN.png" />
+      <h4 id="ten">10 dollar bills</h4>
+      <img class="resizeBill adjustFiveBill" src="assets/FIVE.png" />
+      <h4 id="five">5 dollar bills</h4>
+      <img class="resizeBill adjustOneBill" src="assets/ONE.png" />
+      <h4 id="one">1 dollar bills</h4>
+    </div>     
+    <div class="coinContainer">
+      <img class="resizeCoin" src="assets/QUARTER.png" />
+      <h4 id="quarters">Quarters</h4>
+      <img class="resizeCoin resizeDime" src="assets/DIME.png" />
+      <h4 id="dimes">Dimes</h4>
+      <img class="resizeCoin" src="assets/NICKEL.png" />
+      <h4 id="nickels">Nickels</h4>
+      <img class="resizeCoin" src="assets/PENNY.png" />
+      <h4 id="pennies">Pennies</h4>
+    </div>
+
+
+    <footer class="footer">Created By <a href="https://github.com/anthonymetzger">Anthony Metzger</a></footer>
+    <script src="main.js"></script>
+  </body>
+
+</html>
