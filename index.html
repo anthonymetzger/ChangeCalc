@@ -12,37 +12,37 @@
     <h2 class="oneLiner">*cha ching!!!*</h2>
     <div class="inputContainer">
       <h3 class="userInput">Customer Pays:</h3>
-      <input class="userInput" type="number" id="customer" placeholder="0.00" />
+      <input class="userInput" type="number" id="amount-received" placeholder="0.00" />
       <h3 class="userInput">Total Value:</h3>
-      <input class="userInput" type="number" id="price" placeholder="0.00" />
-      <button onclick="calculateChange(document.getElementById('customer').value, document.getElementById('price').value)" type="button" id="calculate">Calculate Change</button>
+      <input class="userInput" type="number" id="amount-due" placeholder="0.00" />
+      <button onclick="calculateChange(document.getElementById('amount-received').value, document.getElementById('amount-due').value)" type="button" id="calculate-change">Calculate Change</button>
     </div>
-    <h3 class="chan vge" id="changeDue">Change Due:</h3>
+    <h3 class="change" id="change-due">Change Due:</h3>
       <div class="billContainerHigh">
-      <img class="resizeBill adjustHundredBill" src="assets/ONE-HUNDRED.png" />
-      <h4 id="hundred">100 dollar bills</h4>
+     <!--> <img class="resizeBill adjustHundredBill" src="assets/ONE-HUNDRED.png" />
+      <p id="hundreds-output">100 dollar bills</p>
       <img class="resizeBill adjustFiftyBill" src="assets/FIFTY.png" />
-      <h4 id="fifty">50 dollar  bills</h4>
+      <p id="fifties-output">50 dollar  bills</p>
       <img class="resizeBill adjustTwentyBill" src="assets/TWENTY.png" />
-      <h4 id="twenty">20 dollar bills</h4>
+      <p id="twenties-output">20 dollar bills</p>
     </div>
     <div class="billContainerLow">
       <img class="resizeBill adjustTenBill" src="assets/TEN.png" />
-      <h4 id="ten">10 dollar bills</h4>
+      <p id="tens-output">10 dollar bills</p>
       <img class="resizeBill adjustFiveBill" src="assets/FIVE.png" />
-      <h4 id="five">5 dollar bills</h4>
+      <p id="fives-output">5 dollar bills</p> -->
       <img class="resizeBill adjustOneBill" src="assets/ONE.png" />
-      <h4 id="one">1 dollar bills</h4>
+      <p id="dollars-output">1 dollar bills</p>
     </div>     
     <div class="coinContainer">
       <img class="resizeCoin" src="assets/QUARTER.png" />
-      <h4 id="quarters">Quarters</h4>
+      <p id="quarters-output">Quarters</p>
       <img class="resizeCoin resizeDime" src="assets/DIME.png" />
-      <h4 id="dimes">Dimes</h4>
+      <p id="dimes-output">Dimes</p>
       <img class="resizeCoin" src="assets/NICKEL.png" />
-      <h4 id="nickels">Nickels</h4>
+      <p id="nickels-output">Nickels</p>
       <img class="resizeCoin" src="assets/PENNY.png" />
-      <h4 id="pennies">Pennies</h4>
+      <p id="pennies-output">Pennies</p>
     </div>
 
 

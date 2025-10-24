@@ -8,6 +8,7 @@
     },
     "devDependencies": {
         "@playwright/test": "^1.52.0",
+        "eslint": "^9.38.0",
         "node-static": "^0.7.11"
     }
 }
